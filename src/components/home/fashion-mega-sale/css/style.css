@@ -1,0 +1,56 @@
+.home-page .fashion-mega-sale {
+    background: url("https://www.prodesigns.com/wordpress-themes/demo/ecommerce-gem/wp-content/uploads/sites/16/2018/01/banner-image-new.jpg") center center / cover;
+    padding: 90px;
+    color: #fff;
+}
+
+.home-page .fashion-mega-sale .outer-box {
+    background-color: #052638;
+    width: 370px;
+    text-align: center;
+    padding: 10px;
+}
+
+.home-page .fashion-mega-sale .inner-box span {
+    font-size: 40px;
+}
+
+.home-page .fashion-mega-sale .inner-box h2 {
+    font-size: 53px;
+    font-weight: 800;
+}
+
+.home-page .fashion-mega-sale .inner-box hr {
+    display: inline-block;
+    width: 60px;
+    height: 1px;
+    background: rgba(255,255,255,0.5);
+}
+
+.home-page .fashion-mega-sale .inner-box h3 {
+    font-size: 42px;
+    font-weight: 800;
+    margin-bottom: 15px;
+}
+
+.home-page .fashion-mega-sale .inner-box button {
+    background-color: #fa6161;
+    border: none;
+    cursor: pointer;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+    height: 42px;
+    margin-top: 50px;
+    text-decoration: none;
+    transition: 0.4s ease-in-out;
+}
+
+.home-page .fashion-mega-sale .inner-box button:hover {
+    background-color: #515151;
+}
+
+.home-page .fashion-mega-sale .inner-box {
+    border: 2px dotted rgba(255,255,255,0.5);
+    padding: 60px 10px 40px 10px;
+}

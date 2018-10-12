@@ -1,0 +1,124 @@
+.header {
+    font-family: 'Barlow', sans-serif;
+}
+
+.upper-header {
+    background-color: #11101d;
+    color: #ffffff;
+    text-align: center;
+}
+
+.upper-header .upper-left div, .upper-header .upper-right div {
+    padding: 10px 20px;
+}
+
+.upper-header .upper-right .custom-border-right {
+    border-right: 1px solid #22202e
+}
+
+.upper-header .upper-left div {
+    font-size: 15px;
+}
+
+.upper-header .upper-left div, .upper-header .upper-right div {
+    display: inline-block;
+}
+
+.upper-header .upper-right div span {
+    cursor: pointer;
+}
+
+.upper-header .upper-right span, .upper-header .upper-left span {
+    padding: 0px 10px;
+    padding-right: 5px
+}
+
+.lower-header .left-side-title {
+    margin-top: 30px;
+}
+
+.lower-header .left-side-title p {
+    color: #515151;
+}
+
+.lower-header .menu-wrapper {
+    margin-top: auto;
+    margin-bottom: auto;
+    text-align: center;
+    padding-top: 15px;
+}
+
+.navigation-menu li {
+    display: inline-block;
+    color: black;
+}
+
+.navigation-menu li a {
+    color: #11101d;
+    padding: 35px 20px;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.navigation-menu li a:hover {
+    text-decoration: none;
+    color: #fa6161;
+}
+
+.footer .lower-footer .copyright {
+    padding-left: 0;
+}
+
+.footer .lower-footer .author {
+    padding-right: 0;
+    text-align: right;
+}
+
+.footer .upper-footer {
+    border-bottom: 1px solid #23212f;
+}
+
+.footer .lower-footer {
+    margin-bottom: 50px;
+}
+
+.footer .lower-footer div {
+    margin-top: 20px;
+}
+
+.footer .footer-second-row i, .footer .footer-third-row i {
+    padding-right: 25px;
+}
+
+.empty-div {
+    height: 300px;
+}
+
+@media (max-width: 1223px) {
+    .upper-header .upper-left div {
+        font-size: 14px;
+        text-align: left;
+    }
+
+    .upper-header .upper-right span, .upper-header .upper-left span {
+        padding: 0px 5px;
+        padding-right: 2px;
+    }
+}
+
+@media (max-width: 768px) {
+    .lower-header .left-side-title {
+        text-align: center;
+    }
+}
+
+@media (max-width: 520px) {
+    .upper-header .upper-left div {
+        text-align: center;
+    }
+
+    .upper-header .upper-left div {
+        padding-right: 5px;
+        padding-left: 5px;
+    }
+}
