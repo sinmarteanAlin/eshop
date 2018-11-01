@@ -34,18 +34,3 @@
     margin: 20px 0px;
     display: inline-block;
 }
-
-.card-content .card-button {
-    background:transparent;
-    color: #fff;
-    font-size: 15px;
-    border: 1px solid #fff;
-    padding: 8px 5px 8px 6px;
-    cursor: pointer;
-}
-
-.card-content .card-button:hover {
-    background-color: #515151;
-    border: none;
-    transition: 0.7s ease-in-out;
-}

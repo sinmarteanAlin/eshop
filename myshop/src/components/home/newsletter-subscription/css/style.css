@@ -1,0 +1,52 @@
+.newsletter-subscription-container {
+    padding: 70px 0px;
+    background-color: #4a76b4;
+    color: #ffffff;
+    font-family: 'Barlow', sans-serif;
+}
+
+.newsletter-subscription-container .container div {
+    display: inline-block;
+}
+
+.newsletter-subscription-container .container, .newsletter-subscription-container .left-side-part {
+    display: flex!important;
+}
+
+
+.newsletter-subscription-container .container img {
+    margin-right: 30px;
+}
+
+.newsletter-subscription-container .container .text-container h3 {
+    font-size: 21px;
+    margin-bottom: 0px;
+}
+
+.newsletter-subscription-container .container .text-container p {
+    font-size: 19px;
+    line-height: 26px;
+    font-weight: 400;
+    margin-bottom: 0px;
+}
+
+.newsletter-subscription-container .container input, .newsletter-subscription-container .container button {
+    font-size: 18px;
+    background-color: #fff;
+    color: #5f5f5f;
+    padding: 17px 35px;
+    line-height: 1.2;
+    width: 470px;
+}
+
+.newsletter-subscription-container .container button {
+    background-color: #fa6161;
+    border: 0;
+    padding: 20px 35px;
+    width: 200px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+
+}

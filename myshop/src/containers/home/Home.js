@@ -4,6 +4,8 @@ import TopUpperCategories from '../../components/home/top-upper-categories/TopUp
 import FeaturedCategories from '../../components/home/featured-categories/FeaturedCategories';
 import TrendingSession from '../../components/home/trending-session/TrendingSession';
 import FeaturedProducts from '../../components/home/featured-products/FeaturedProducts';
+import LatestNews from '../../components/home/latest-news/LatestNews.js';
+import NewsletterSubscription from '../../components/home/newsletter-subscription/NewsletterSubscription.js'
 
 const Home = () => {
     return (
@@ -13,7 +15,8 @@ const Home = () => {
             <FeaturedCategories />
             <TrendingSession />
             <FeaturedProducts />
-            <div className="empty-div"></div>
+            <LatestNews />
+            <NewsletterSubscription />
         </div>
     );
 }

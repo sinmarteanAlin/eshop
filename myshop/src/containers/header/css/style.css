@@ -90,10 +90,6 @@
     padding-right: 25px;
 }
 
-.empty-div {
-    height: 300px;
-}
-
 @media (max-width: 1223px) {
     .upper-header .upper-left div {
         font-size: 14px;

@@ -1,5 +1,6 @@
 import React from 'react';
 import './css/style.css';
+import PurchaseButton from '../../common/widgets/purchase-button/PurchaseButton';
 
 const Card = (props) => {
     return (
@@ -10,7 +11,9 @@ const Card = (props) => {
                     <h5 className="card-title">{props.titleFirstLine}</h5>
                     <h5 className="card-title">{props.titleSecondLine}</h5>
                     <span className="card-text">{props.percentageOff}</span>
-                    <button className="card-button">{props.buttonText}</button>
+                    <PurchaseButton
+                        text={props.buttonText}
+                    />
                 </div>
             </div>
         </div>

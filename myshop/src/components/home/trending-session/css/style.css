@@ -1,3 +1,81 @@
 .trending-session {
     background-image: url(https://www.prodesigns.com/wordpress-themes/demo/wp-content/uploads/sites/16/2018/01/cta-bg.jpg);
 }
+
+.trending-session .content-wrapper .inner-diamond {
+    content: "";
+    display: inline-block;
+    width: 280px;
+    height: 280px;
+    border-radius: 10px;
+    background-color: #fa6161;
+    transform: rotate(45deg);
+    margin: 120px;
+}
+
+.trending-session .content-wrapper .inner-diamond .inner-diamond-text {
+    transform: rotate(-45deg);
+    position: absolute;
+    top: 20%;
+    left: 5%;
+    color: white;
+    text-align: center;
+    text-transform: none;
+}
+
+.trending-session .content-wrapper .inner-diamond .inner-diamond-text h2{
+    color: #fff;
+    font-size: 26px;
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
+    line-height: 1.2;
+    margin-bottom: 10px;
+    font-weight:bold;
+}
+
+
+.trending-session .content-wrapper .inner-diamond .inner-diamond-text p {
+    font-size: 28px;
+    margin-bottom: 29px;
+}
+
+.trending-session .content-wrapper .inner-diamond .inner-diamond-text button {
+    position: relative;
+    left: 1%;
+}
+
+.trending-session .content-wrapper .outer-diamond {
+    content: "";
+    display: inline-block;
+    width: 120px;
+    height: 120px;
+    border-radius: 10px;
+    background-color: #fff;
+    position: relative;
+    left: 22px;
+    top: -88px;
+}
+
+.trending-session .content-wrapper .outer-diamond h3 {
+    transform: rotate(-45deg);
+    text-align: center;
+    color: #fa6161;
+    font-size: 30px;
+    font-weight: 800;
+    /* margin-bottom: 5px; */
+}
+
+.trending-session .content-wrapper .outer-diamond h3 {
+    position: relative;
+    top: 7px;
+    left: 9px;
+}
+
+.trending-session .content-wrapper .outer-diamond h3:first-child {
+  text-align: left;  
+}
+
+.trending-session .content-wrapper .outer-diamond h3:last-child {
+    font-size: 32px;
+    font-weight: 300;
+}
