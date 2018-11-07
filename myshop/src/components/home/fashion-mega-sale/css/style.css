@@ -34,20 +34,9 @@
 }
 
 .home-page .fashion-mega-sale .inner-box button {
-    background-color: #fa6161;
-    border: none;
-    cursor: pointer;
-    color: #fff;
-    font-size: 18px;
-    font-weight: 600;
     height: 42px;
     margin-top: 50px;
-    text-decoration: none;
-    transition: 0.4s ease-in-out;
-}
 
-.home-page .fashion-mega-sale .inner-box button:hover {
-    background-color: #515151;
 }
 
 .home-page .fashion-mega-sale .inner-box {

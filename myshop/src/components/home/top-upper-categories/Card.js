@@ -4,7 +4,7 @@ import PurchaseButton from '../../common/widgets/purchase-button/PurchaseButton'
 
 const Card = (props) => {
     return (
-        <div className="col-lg-4">
+        <div className="col-lg-4" key={props.id}>
             <div className="card bg-dark text-white">
                 <img className="card-img" src={props.imageSrc} alt="" />
                 <div className="card-img-overlay card-content">

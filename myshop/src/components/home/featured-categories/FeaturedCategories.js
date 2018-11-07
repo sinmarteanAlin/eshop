@@ -13,6 +13,7 @@ const FeaturedCategories = () => {
                 <div className="row">
                     <Categories 
                         categoriesObject={FEATURED_CATEGORIES}
+                        buttonText={'VIEW DETAILS'}
                     />
                 </div>
             </div>

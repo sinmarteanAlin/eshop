@@ -9,7 +9,7 @@ const Navigation = (props) => {
                 <li><NavLink to='/shop'>SHOP</NavLink></li>
                 <li><NavLink to='/my-acount'>MY ACOUNT</NavLink></li>
                 <li><NavLink to='/blog'>BLOG</NavLink></li>
-                <li><NavLink to='/contact-us'>CONTACT US</NavLink></li>
+                <li><NavLink to='/contact'>CONTACT US</NavLink></li>
             </ul>
         </nav>
     );

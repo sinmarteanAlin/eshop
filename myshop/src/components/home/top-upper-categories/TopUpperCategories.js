@@ -8,7 +8,9 @@ const TopUpperCategories = () => {
             <div className="row">
                 {
                     TOP_UPPER_CATEGORIES.map(item => (
-                        <Card 
+                        
+                        <Card
+                            key={item.id} 
                             imageSrc={item.imageSrc}
                             titleFirstLine={item.titleFirstLine}
                             titleSecondLine={item.titleFirstLine}

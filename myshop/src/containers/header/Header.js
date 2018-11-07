@@ -26,7 +26,6 @@ class Header extends Component {
                         <Title />
                     </div>
                     <div className="col-lg-7 offset-lg-1 col-md-6 col-sm-12 col-xs-12 menu-wrapper">
-                        
                         <Navigation />
                     </div>
                 </div>

@@ -1,4 +1,5 @@
 import React from 'react';
+import PinkButton from '../../common/widgets/pinkButton/PinkButton';
 
 const InnerBox = () => {
     return (
@@ -16,9 +17,9 @@ const InnerBox = () => {
             <h5>
                 ON ORDER ABOVE $999
             </h5>
-            <button>
-                SHOP NOW
-            </button>
+            <PinkButton
+                text="SHOP NOW"
+            />
         </div>
     );
 }

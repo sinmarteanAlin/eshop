@@ -13,6 +13,7 @@ const FeaturedProducts = () => {
                 <div className="row">
                     <Categories 
                         categoriesObject={FEATURED_PRODUCTS}
+                        buttonText={'ADD TO CART'}
                     />
                 </div>
             </div>

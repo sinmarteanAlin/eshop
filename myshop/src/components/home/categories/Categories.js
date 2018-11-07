@@ -1,5 +1,5 @@
 import React from 'react';
-import Card from './Card';
+import ImageTextCard from '../../common/widgets/imageTextCard/ImageTextCard';
 import './css/style.css';
 
 const TopUpperCategories = (props) => {
@@ -8,10 +8,12 @@ const TopUpperCategories = (props) => {
             <div className="row">
                 {
                     props.categoriesObject.map(item => (
-                        <Card 
-                            imageSrc={item.imageSrc}
-                            title={item.title}
-                        />   
+                        <ImageTextCard
+                        key={item.id}
+                        imageSrc={item.imageSrc}
+                        title={item.title}
+                        buttonText={props.buttonText}
+                        />
                     ))
                 }    
             </div>

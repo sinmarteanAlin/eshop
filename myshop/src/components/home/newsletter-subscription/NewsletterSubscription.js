@@ -3,25 +3,23 @@ import './css/style.css';
 import HomeIcon from './HomeIcon';
 import Text from './Text';
 import Input from './Input';
-import Button from './Button';
+import PinkButton from '../../common/widgets/pinkButton/PinkButton';
 
 const NewsletterSubscription = () => {
     return (
         <div className="container-fluid newsletter-subscription-container">
             <div className="container">
-                {/* <div className="row"> */}
-                    <div className="left-side-part">
-                        <HomeIcon />
-                        <Text />
-                    </div>
-                    <Input />
-                    <Button />
-
-                {/* </div> */}
+                <div className="left-side-part">
+                    <HomeIcon />
+                    <Text />
+                </div>
+                <Input />
+                <PinkButton 
+                    text="SUBSCRIBE"
+                />
             </div>
             
         </div>
     );
-
 }
 export default NewsletterSubscription;

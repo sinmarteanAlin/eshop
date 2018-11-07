@@ -24,7 +24,7 @@
     cursor: default;
 }
 
-.featured-categories .mask {
+.mask {
     position: absolute;
     top: 0;
     left: 0;
@@ -36,8 +36,31 @@
     transition: 0.4s ease-in-out;
 }
 
-.featured-categories .mask:hover {
+.mask .button-wrapper {
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 100%;
+    top: 40%;
+    text-align: center;
+    opacity: 0;
+}
+
+.mask .button-wrapper button {
+    background: transparent;
+    border: 1px solid #fff;
+    color: #fff;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 600;
+    padding: 15px 30px;
+}
+
+.mask .button-wrapper:hover {
+    opacity: 1;
+}
+
+.mask:hover {
     background-color: #fa6161;
     opacity: .8;
-    cursor: pointer;
 }
